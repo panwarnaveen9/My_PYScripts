@@ -1,0 +1,14 @@
+<HTML>
+<HEAD>
+	<TITLE> Grade Details </TITLE>
+</HEAD>
+<center>
+<img src=treebg.jpg> </center>
+<BODY bgcolor='#EFEAD1'>
+	<BR><br>
+	<table align=center border=2 cellpadding=0 cellspacing=0>
+                  <tr><th>Roll Number</th><th>Name</th><th>Course Code</th><tr><td>200902005</td><td>ATMAKURI VENKATA TRINATH</td><td>Mathematics II&nbsp;&nbsp;&nbsp;Mathematics III&nbsp;&nbsp;&nbsp;Algorithms   &nbsp;&nbsp;&nbsp;Introduction to Humanities &nbsp;&nbsp;&nbsp;Mathematical Analysis&nbsp;&nbsp;&nbsp;Digital Signal Analysis and Applications&nbsp;&nbsp;&nbsp;Science II&nbsp;&nbsp;&nbsp;Artificial Intelligence &nbsp;&nbsp;&nbsp;General Physics&nbsp;&nbsp;&nbsp;Performance Modeling of Software Systems&nbsp;&nbsp;&nbsp;Software  Engineering&nbsp;&nbsp;&nbsp;Honours Project IV&nbsp;&nbsp;&nbsp;Project-4Credit(7th Sem)&nbsp;&nbsp;&nbsp;Independent Study-4Credits(8th Sem)&nbsp;&nbsp;&nbsp;</td></tr></table>
+</BODY>
+</HTML>
+	
+
