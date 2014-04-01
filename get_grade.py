@@ -40,6 +40,7 @@ htmls.append("</table></BODY></HTML>")
 write_f = open('result.html','w')
 for i in htmls:
 	write_f.write(i)
+	write_f.write("\n")
 write_f.close()
 
 #print my_dict
