@@ -1,0 +1,23 @@
+#!/usr/bin/python 
+
+import commands, os, time
+
+def main():
+	home = os.getenv("HOME")
+	path = home + "/.ip_file.txt"
+	ip_file = open(path,'a')
+	ip_addr = commands.getoutput("/sbin/ifconfig").split("\n")[1].split()[1][5:]
+	time_now = time.strftime('%c')
+	ip_file.write(ip_addr + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + time_now + "<br />\n")
+	ip_file.close()
+	user_name = "my.webusername"
+	host = "@web.iiit.ac.in"
+	passwd = "your_web_pass"
+	scp_line = "sshpass -p '" + passwd + "' scp " + path + " " + user_name + host + ":~/public_html/index2.html"
+	#print scp_line
+	os.system(scp_line)
+	
+if __name__=="__main__":
+	main()
+
+
